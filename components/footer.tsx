@@ -68,16 +68,21 @@ export function Footer() {
             transition={{ duration: 0.5 }}
             className="lg:col-span-1"
           >
-            <Link href="/" className="flex items-center gap-2 mb-6 group">
+            <Link href="/" className="flex items-center gap-3 group">
               <motion.div 
+                className="w-14 h-14 rounded-full flex items-center justify-center bg-[#f7f0f0] shadow-lg"
                 whileHover={{ scale: 1.1, rotate: 5 }}
-                className="w-12 h-12 rounded-full bg-gradient-to-br from-[#D4AF37] to-[#C9A96B] flex items-center justify-center shadow-lg shadow-[#D4AF37]/30"
+                transition={{ type: "spring", stiffness: 400 }}
               >
-                <span className="text-[#1A1A1A] font-serif font-bold text-xl">G</span>
+                <img src={'/logo.png'}></img>
               </motion.div>
               <div className="flex flex-col">
-                <span className="font-serif text-xl font-bold text-[#D4AF37] group-hover:text-[#C9A96B] transition-colors">Golden Resort GKP</span>
-                <span className="text-xs text-[#D4AF37]/60 -mt-1">Best Resort</span>
+                <span className="font-serif text-xl lg:text-2xl font-bold tracking-wide text-white">
+                  Golden Resort GKP
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.2em] text-[#D4AF37]">
+                  Best Resort
+                </span>
               </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
@@ -182,8 +187,8 @@ export function Footer() {
                   <MapPin className="w-5 h-5 text-[#2A7F9E]" />
                 </div>
                 <span className="text-white/60 text-sm pt-2">
-                  Near by Medical College<br />
-                  Gorakhpur, UP 273001
+                  Infront of Gulhariya Thana,<br />
+                   Near Navjeevan School, Gorakhpur, UP 273001
                 </span>
               </motion.li>
               <motion.li 
@@ -194,7 +199,7 @@ export function Footer() {
                   <Phone className="w-5 h-5 text-[#2A7F9E]" />
                 </div>
                 <a href="tel:+918795416006" className="text-white/60 hover:text-[#2A7F9E] transition-colors text-sm">
-                  +91 98765 43210
+                  +91 87954 16006
                 </a>
               </motion.li>
               <motion.li 
@@ -205,7 +210,7 @@ export function Footer() {
                   <Mail className="w-5 h-5 text-[#2A7F9E]" />
                 </div>
                 <a href="mailto:info@goldenresortgkp.com" className="text-white/60 hover:text-[#2A7F9E] transition-colors text-sm">
-                  info@goldenresortgkp.com
+                  infogoldenresort@gmail.com
                 </a>
               </motion.li>
             </ul>
@@ -216,20 +221,7 @@ export function Footer() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.5 }}
               className="mt-6"
-            >
-              <h4 className="text-sm font-medium text-white mb-3">Subscribe to Newsletter</h4>
-              <div className="flex gap-2">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 bg-white/10 border border-[#1B5E75]/30 rounded-lg px-4 py-2.5 text-sm text-white placeholder:text-white/40 focus:outline-none focus:border-[#1B5E75] focus:bg-white/15 transition-all"
-                />
-                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Button size="icon" className="bg-gradient-to-r from-[#1B5E75] to-[#2A7F9E] hover:from-[#2A7F9E] hover:to-[#1B5E75] h-10 w-10 shadow-lg shadow-[#1B5E75]/25">
-                    <ArrowRight className="w-4 h-4" />
-                  </Button>
-                </motion.div>
-              </div>
+            >              
             </motion.div>
           </motion.div>
         </div>

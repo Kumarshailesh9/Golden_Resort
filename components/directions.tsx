@@ -15,15 +15,15 @@ const contactCards = [
   {
     icon: Phone,
     title: "Call Us",
-    content: ["+91 98765 43210", "+91 91234 56789"],
-    links: ["tel:+918795416006", "tel:+919123456789"],
+    content: ["+91 87954 16006"],
+    links: ["tel:+918795416006"],
     delay: 0.1,
   },
   {
     icon: Mail,
     title: "Email Us",
-    content: ["info@goldenresortgkp.com", "booking@goldenresortgkp.com"],
-    links: ["mailto:info@goldenresortgkp.com", "mailto:booking@goldenresortgkp.com"],
+    content: ["infogoldenresort@gmail.com"],
+    links: ["infogoldenresort@gmail.com"],
     delay: 0.2,
   },
   {
@@ -109,7 +109,7 @@ export function Directions() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-[#4A4A4A] max-w-2xl mx-auto text-lg"
           >
-            Visit us at our location near Medical College. We are always ready to welcome you.
+            Visit us at our location Infront of Gulhariya Thana, Near Navjeevan School, Gorakhpur. We are always ready to welcome you.
           </motion.p>
         </div>
 
@@ -180,11 +180,11 @@ export function Directions() {
                   >
                     <Navigation className="w-5 h-5 text-white" />
                   </motion.div>
-                  <span className="text-white font-medium">Golden Resort GKP - Near Medical College, Gorakhpur</span>
+                  <span className="text-white font-medium">Golden Resort GKP - Gulhariya Thana, Near Navjeevan School, Gorakhpur</span>
                 </div>
                 <motion.a
                   whileHover={{ scale: 1.05 }}
-                  href="https://www.google.com/maps/search/Medical+College+Gorakhpur"
+                  href="https://maps.app.goo.gl/FavDHGuzfk2NT3eF9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-white/90 hover:text-white text-sm transition-colors"

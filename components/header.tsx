@@ -47,14 +47,14 @@ export function Header() {
                 whileHover={{ scale: 1.05 }}
               >
                 <Phone className="w-3 h-3" />
-                <span>+91 98765 43210</span>
+                <span>+91 8795416006</span>
               </motion.a>
               <motion.span 
                 className="hidden md:flex items-center gap-2 text-white/80"
                 whileHover={{ scale: 1.05 }}
               >
                 <MapPin className="w-3 h-3" />
-                <span>Near Medical College, Gorakhpur</span>
+                <span>Infront of Gulhariya Thana, Near Navjeevan School, Gorakhpur</span>
               </motion.span>
             </div>
             <motion.div 
@@ -85,11 +85,11 @@ export function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
               <motion.div 
-                className="w-12 h-12 rounded-full flex items-center justify-center bg-gradient-to-br from-[#D4AF37] to-[#C9A96B] shadow-lg"
+                className="w-14 h-14 rounded-full flex items-center justify-center bg-[#f7f0f0] shadow-lg"
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 400 }}
               >
-                <span className="text-[#1A1A1A] font-serif font-bold text-xl">G</span>
+                <img src={'/logo.png'}></img>
               </motion.div>
               <div className="flex flex-col">
                 <span className="font-serif text-xl lg:text-2xl font-bold tracking-wide text-white">
