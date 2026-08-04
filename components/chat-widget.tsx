@@ -21,7 +21,7 @@ const quickReplies = [
 ]
 
 const botResponses: Record<string, string> = {
-  wedding_packages: `**Exquisite Wedding Packages at Golden Resort GKP**
+  wedding_packages: `**Exquisite Wedding Packages at Golden Resort**
 
 We offer unforgettable wedding experiences:
 
@@ -34,7 +34,7 @@ Starting from ₹2,50,000 onwards.
 
 Would you like to schedule a venue visit? Use the **Call Button** to speak with our wedding coordinator!`,
 
-  luxury_rooms: `**Ultra-Luxury Suites at Golden Resort GKP**
+  luxury_rooms: `**Ultra-Luxury Suites at Golden Resort**
 
 Experience the finest accommodation:
 
@@ -50,7 +50,7 @@ All rooms feature:
 
 Check our **Instagram** for the latest room photos!`,
 
-  pool_rates: `**Sparkling Pool Access at Golden Resort GKP**
+  pool_rates: `**Sparkling Pool Access at Golden Resort**
 
 Enjoy our stunning swimming facilities:
 
@@ -79,7 +79,7 @@ We're thrilled to help you plan your visit!
 
 Use the **Call Button** on the right to connect instantly!`,
 
-  contact: `**Get in Touch with Golden Resort GKP**
+  contact: `**Get in Touch with Golden Resort**
 
 We're here to make your experience exceptional!
 
@@ -95,7 +95,7 @@ Pool: 6 AM - 9 PM
 
 Follow us on **Instagram** and **Facebook** for the latest events and offers!`,
 
-  default: `Hello! I'm **Aura**, your Luxury Concierge at Golden Resort GKP.
+  default: `Hello! I'm **Aura**, your Luxury Concierge at Golden Resort.
 
 How may I assist you today? I can help with:
 
@@ -249,7 +249,7 @@ How else may I assist you?`,
                 </div>
                 <div className="flex items-center gap-2">
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+918795416006"
                     className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-colors"
                   >
                     <Phone className="w-4 h-4" />

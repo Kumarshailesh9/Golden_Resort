@@ -93,7 +93,7 @@ export function Header() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="font-serif text-xl lg:text-2xl font-bold tracking-wide text-white">
-                  Golden Resort GKP
+                  Golden Resort
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#D4AF37]">
                   Best Resort

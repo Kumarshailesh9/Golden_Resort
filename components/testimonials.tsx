@@ -18,7 +18,7 @@ const testimonials = [
     id: 2,
     name: "Rohit Sarkar",
     initials: "RS",
-    review: "Golden Resort GKP hosted our wedding with such elegance and precision. Everything was flawless, and they truly exceeded our expectations. Highly recommended!",
+    review: "Golden Resort hosted our wedding with such elegance and precision. Everything was flawless, and they truly exceeded our expectations. Highly recommended!",
     rating: 5,
   },
   {
@@ -39,14 +39,14 @@ const testimonials = [
     id: 5,
     name: "DD Srivastava",
     initials: "DS",
-    review: "Five stars! The entire process was seamless and stress-free. Golden Resort GKP took care of everything, allowing us to enjoy our special day without any worries.",
+    review: "Five stars! The entire process was seamless and stress-free. Golden Resort took care of everything, allowing us to enjoy our special day without any worries.",
     rating: 5,
   },
   {
     id: 6,
     name: "Pradeep Patel",
     initials: "PP",
-    review: "The creativity and resourcefulness of the Golden Resort GKP team are amazing. They delivered a world-class event on a tight budget. I'm thoroughly impressed.",
+    review: "The creativity and resourcefulness of the Golden Resort team are amazing. They delivered a world-class event on a tight budget. I'm thoroughly impressed.",
     rating: 5,
   },
 ]

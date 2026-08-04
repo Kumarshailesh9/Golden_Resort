@@ -12,12 +12,12 @@ import { MessageCircle, Sparkles, ArrowRight } from "lucide-react"
 
 const faqs = [
   {
-    question: "What types of rooms are available at Golden Resort GKP?",
+    question: "What types of rooms are available at Golden Resort?",
     answer: "We offer a variety of accommodation options including Standard Rooms, Deluxe Rooms, Premium Suites, and Luxury Family Suites. All rooms feature modern amenities, elegant decor, and stunning views. Our rooms are equipped with air conditioning, flat-screen TVs, complimentary Wi-Fi, and premium toiletries.",
   },
   {
     question: "What makes Golden Resort the best resort in Gorakhpur?",
-    answer: "Golden Resort GKP stands out with its prime location near Medical College, world-class amenities including a swimming pool, spa, and multi-cuisine restaurant. We offer personalized service, beautiful event spaces for weddings and corporate gatherings, and over 8 years of hospitality excellence.",
+    answer: "Golden Resort stands out with its prime location near Medical College, world-class amenities including a swimming pool, spa, and multi-cuisine restaurant. We offer personalized service, beautiful event spaces for weddings and corporate gatherings, and over 8 years of hospitality excellence.",
   },
   {
     question: "Do you offer wedding and event packages?",
@@ -26,15 +26,7 @@ const faqs = [
   {
     question: "What are the check-in and check-out times?",
     answer: "Standard check-in time is 12:00 PM and check-out is at 11:00 AM. Early check-in and late check-out can be arranged based on availability. Please contact our front desk in advance to request these services.",
-  },
-  {
-    question: "Is the resort suitable for medical visitors?",
-    answer: "Absolutely! Our location near Medical College makes us ideal for patients' families and medical professionals. We offer comfortable stays, room service, transportation assistance, and a peaceful environment perfect for recovery and relaxation.",
-  },
-  {
-    question: "What dining options are available?",
-    answer: "Our multi-cuisine restaurant serves a variety of dishes from traditional Indian cuisine to international favorites. We offer breakfast, lunch, dinner, and 24/7 room service. We can also accommodate special dietary requirements with advance notice.",
-  },
+  }
 ]
 
 export function FAQ() {
@@ -83,7 +75,7 @@ export function FAQ() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-[#4A4A4A] leading-relaxed mb-8"
             >
-              Have questions about staying at Golden Resort GKP? We&apos;ve got answers. 
+              Have questions about staying at Golden Resort? We&apos;ve got answers. 
               Here are some of the most common questions we receive. If you don&apos;t find 
               what you&apos;re looking for, feel free to contact us directly.
             </motion.p>

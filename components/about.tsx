@@ -41,7 +41,7 @@ export function About() {
                   <motion.img
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.4 }}
-                    src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=600"
+                    src="/1.jpeg"
                     alt="Resort pool"
                     className="w-full h-48 object-cover"
                   />
@@ -55,7 +55,7 @@ export function About() {
                   <motion.img
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.4 }}
-                    src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=600"
+                    src="2.jpeg"
                     alt="Luxury room"
                     className="w-full h-64 object-cover"
                   />
@@ -71,7 +71,7 @@ export function About() {
                   <motion.img
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.4 }}
-                    src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=600"
+                    src="3.jpeg"
                     alt="Resort exterior"
                     className="w-full h-64 object-cover"
                   />
@@ -85,7 +85,7 @@ export function About() {
                   <motion.img
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.4 }}
-                    src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=600"
+                    src="4.jpeg"
                     alt="Restaurant"
                     className="w-full h-48 object-cover"
                   />
@@ -114,7 +114,7 @@ export function About() {
               transition={{ duration: 0.5 }}
               className="text-[#1B5E75] font-medium mb-2 uppercase tracking-wider text-sm"
             >
-              About Golden Resort GKP
+              About Golden Resort
             </motion.p>
             <motion.h2 
               initial={{ opacity: 0, x: 20 }}
@@ -134,7 +134,7 @@ export function About() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-[#4A4A4A] mb-6 leading-relaxed text-lg"
             >
-              Golden Resort GKP is the premier luxury resort in Gorakhpur, offering world-class 
+              Golden Resort is the premier luxury resort in Gorakhpur, offering world-class 
               amenities and exceptional service. Located near Medical College, we are the perfect 
               destination for weddings, corporate events, and relaxing getaways.
             </motion.p>

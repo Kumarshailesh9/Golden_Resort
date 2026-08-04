@@ -78,7 +78,7 @@ export function Footer() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="font-serif text-xl lg:text-2xl font-bold tracking-wide text-white">
-                  Golden Resort GKP
+                  Golden Resort
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#D4AF37]">
                   Best Resort
@@ -86,7 +86,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
-              Experience luxury and comfort at Golden Resort GKP - the best resort in Gorakhpur. 
+              Experience luxury and comfort at Golden Resort - the best resort in Gorakhpur. 
               Your perfect getaway destination with world-class amenities and exceptional service.
             </p>
             {/* Social Links */}
@@ -237,7 +237,7 @@ export function Footer() {
             className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50"
           >
             <p className="flex items-center gap-1">
-              &copy; {new Date().getFullYear()} Golden Resort GKP. Made with 
+              &copy; {new Date().getFullYear()} Golden Resort. Made with 
               <motion.span
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 1, repeat: Infinity }}

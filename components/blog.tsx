@@ -9,8 +9,8 @@ import { useRef } from "react"
 const blogPosts = [
   {
     id: 1,
-    title: "Why Golden Resort GKP is the Best Wedding Destination in Gorakhpur",
-    excerpt: "Discover why couples choose Golden Resort GKP for their dream weddings. From stunning venues to impeccable service, we make every moment magical.",
+    title: "Why Golden Resort is the Best Wedding Destination in Gorakhpur",
+    excerpt: "Discover why couples choose Golden Resort for their dream weddings. From stunning venues to impeccable service, we make every moment magical.",
     date: "March 15, 2026",
     image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800",
     category: "Weddings",
@@ -26,7 +26,7 @@ const blogPosts = [
   {
     id: 3,
     title: "Planning the Perfect Corporate Event: A Complete Guide",
-    excerpt: "From conferences to team retreats, learn how to plan an unforgettable corporate event at Golden Resort GKP with our expert tips and premium facilities.",
+    excerpt: "From conferences to team retreats, learn how to plan an unforgettable corporate event at Golden Resort with our expert tips and premium facilities.",
     date: "March 8, 2026",
     image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800",
     category: "Corporate Events",
@@ -80,7 +80,7 @@ export function Blog() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-white/60 leading-relaxed"
           >
-            Stay updated with the latest news, tips, and insights from Golden Resort GKP.
+            Stay updated with the latest news, tips, and insights from Golden Resort.
           </motion.p>
         </div>
 

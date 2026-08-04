@@ -76,7 +76,7 @@ export function VideoSection() {
             className="text-white/70 leading-relaxed mb-10 max-w-xl mx-auto"
           >
             Take a virtual tour of our stunning facilities. From luxurious rooms to beautiful event spaces, 
-            discover why guests love Golden Resort GKP.
+            discover why guests love Golden Resort.
           </motion.p>
 
           {/* Play Button */}

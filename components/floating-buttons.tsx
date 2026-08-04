@@ -18,7 +18,7 @@ export function FloatingButtons() {
     {
       icon: MessageCircle,
       label: "WhatsApp",
-      href: "https://wa.me/918795416006?text=Hello! I'm interested in Golden Resort GKP",
+      href: "https://wa.me/918795416006?text=Hello! I'm interested in Golden Resort",
       color: "bg-[#25D366] hover:bg-[#128C7E]",
       delay: 0.15
     },

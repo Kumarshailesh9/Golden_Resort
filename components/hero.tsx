@@ -17,7 +17,9 @@ export function Hero() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `url('/1.jpeg')`,
+
+            // backgroundImage: `url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
           }}
         />
         {/* Gradient Overlay - Dark with teal tint */}
@@ -80,7 +82,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed"
           >
-            Experience unparalleled luxury at Golden Resort GKP. Where comfort meets elegance, 
+            Experience unparalleled luxury at Golden Resort. Where comfort meets elegance, 
             creating memories that last a lifetime near Medical College, Gorakhpur.
           </motion.p>
 

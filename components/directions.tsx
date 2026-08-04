@@ -180,7 +180,7 @@ export function Directions() {
                   >
                     <Navigation className="w-5 h-5 text-white" />
                   </motion.div>
-                  <span className="text-white font-medium">Golden Resort GKP - Gulhariya Thana, Near Navjeevan School, Gorakhpur</span>
+                  <span className="text-white font-medium">Golden Resort - Gulhariya Thana, Near Navjeevan School, Gorakhpur</span>
                 </div>
                 <motion.a
                   whileHover={{ scale: 1.05 }}

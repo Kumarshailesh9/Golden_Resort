@@ -19,8 +19,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Golden Resort GKP - Best Resort Near Medical College Gorakhpur',
-  description: 'Golden Resort GKP - the best resort in Gorakhpur near Medical College. Experience luxury and comfort with world-class amenities, exceptional service, and unforgettable experiences.',
+  title: 'Golden Resort - Best Resort Near Medical College Gorakhpur',
+  description: 'Golden Resort - the best resort in Gorakhpur near Medical College. Experience luxury and comfort with world-class amenities, exceptional service, and unforgettable experiences.',
   icons: {
     icon: [
       {

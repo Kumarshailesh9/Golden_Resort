@@ -31,15 +31,11 @@ const services = [
     title: "Luxury Rooms",
     description: "Elegantly appointed rooms and suites featuring premium amenities, stunning views, and world-class comfort for a perfect stay.",
   },
-  {
-    icon: UtensilsCrossed,
-    title: "Fine Dining",
-    description: "Multi-cuisine restaurant serving gourmet dishes prepared by expert chefs, from traditional Indian to international flavors.",
-  },
+  
   {
     icon: Waves,
-    title: "Pool & Spa",
-    description: "Rejuvenate at our luxury swimming pool and spa with professional wellness treatments and relaxation therapies.",
+    title: "Pool ",
+    description: "Rejuvenate at our luxury swimming pool.",
   },
   {
     icon: Users,

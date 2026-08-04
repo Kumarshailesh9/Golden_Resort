@@ -97,7 +97,7 @@ export function CTA() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-white/70 text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed"
           >
-            Book your stay at Golden Resort GKP today and experience the finest luxury 
+            Book your stay at Golden Resort today and experience the finest luxury 
             hospitality in Gorakhpur. Special rates available for early bookings!
           </motion.p>
 
